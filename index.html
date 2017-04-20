@@ -1,0 +1,50 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>2048</title>
+</head>
+
+<div class="container">
+<body>
+    <div class="jumbotron text-center">
+    <h1>2048 game</h1>
+    <p></p>
+    </div>
+    <header>
+    </header>
+    <aside>
+        <p></p>
+    </aside>
+    <section>
+        <article>
+            <header>
+                <h2>2048</h2>
+            </header>
+            <div id="2048"></div>
+        </article>
+    </section>
+    <footer>
+        <p></p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mygame.js"></script>
+    <script>
+    jQuery(document).ready(function($)
+    {
+          //console.log("tst");
+          var size = 100;
+          $("#2048").mygame(size);
+    });
+    </script>
+
+
+</body>
+</div>
+
+</html>
